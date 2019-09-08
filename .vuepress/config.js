@@ -6,7 +6,7 @@ const config = {
     head: [
 		['link', { rel: 'icon', href: '/favicon.png' }],
 		['meta', { name: 'og:title', content: 'Shield Documentation' }],
-		['meta', { name: 'og:description', content: 'A guide made by the community of discord.js for its users.' }],
+		['meta', { name: 'og:description', content: 'Official documentation for Shield, guild moderation and settings bot.' }],
 		['meta', { name: 'og:type', content: 'website' }],
 		['meta', { name: 'og:url', content: 'https://discordjs.guide/' }],
 		['meta', { name: 'og:locale', content: 'en_US' }],
