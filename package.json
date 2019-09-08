@@ -1,0 +1,22 @@
+{  
+  "name": "shield-docs",
+  "version": "0.1.0",
+  "description": "shields official documentation.",
+  "scripts": {
+    "docs:build": "vuepress build docs"
+  },
+  "author": "connor strand",
+  "license": "ISC",
+  "dependencies": {
+    "vuepress": "^1.0.4",
+    "vuepress-theme-yuu": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strandxo/shield-docs.git"
+  },
+  "keywords": ["shield", "documentation", "docs", "moderation"],
+  "bugs": {
+    "url": "https://github.com/strandxo/shield-docs/issues"
+  }
+}
