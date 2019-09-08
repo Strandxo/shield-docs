@@ -15,8 +15,8 @@ const config = {
     repo: "strandxo/shield-docs",
     docsDir: "src",
     editLinks: true,
-    sidebarDepth: 3,
-    lastUpdated: true,
+    sidebarDepth: 2,
+    lastUpdated: 'Last Updated',
     themeConfig: {
         yuu: {
 			colorThemes: ["blue", "red"],
@@ -24,9 +24,9 @@ const config = {
         nav: [
             { text: "Home", link: "/" },
             { text: "Documentation", link: "/docs/" },
+            { text: "Invite", link: "https://discordapp.com/api/oauth2/authorize?client_id=568698045412409344&permissions=8&scope=bot" },
             { text: "Discord", link: "https://discord.gg/YGCuzUz" },
             { text: "Twitter", link: "https://www.twitter.com/shieldbottweets" },
-            { text: "Patreon", link: "#" }
         ],
         sidebar,
     }
