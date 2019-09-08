@@ -1,8 +1,12 @@
-{  
+{
   "name": "shield-docs",
   "version": "0.1.0",
   "description": "shields official documentation.",
   "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "author": "connor strand",
@@ -15,8 +19,19 @@
     "type": "git",
     "url": "git+https://github.com/strandxo/shield-docs.git"
   },
-  "keywords": ["shield", "documentation", "docs", "moderation"],
+  "keywords": [
+    "shield",
+    "documentation",
+    "docs",
+    "moderation"
+  ],
   "bugs": {
     "url": "https://github.com/strandxo/shield-docs/issues"
-  }
+  },
+  "homepage": "https://github.com/strandxo/shield-docs#readme",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {}
 }
